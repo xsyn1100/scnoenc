@@ -338,12 +338,14 @@ export async function handler(chatUpdate) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = true
                 if (!('restrict' in settings)) settings.restrict = true
+                if (!('anticall' in settings)) settings.anticall = true
                 if (!('jadibot' in settings)) settings.jadibot = false
                 if (!('autorestart' in settings)) settings.autorestart = true
                 if (!('restartDB' in settings)) settings.restartDB = 0
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: true,
+                anticall: true, // anticall on apa off?
                 jadibot: false,
                 restrict: true,
                 autorestart: true,
