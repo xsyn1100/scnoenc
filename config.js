@@ -30,26 +30,26 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/denarajb'
-global.sgh = '-' //github
-global.sgc = 'https://chat.whatsapp.com/BiHY7oEBhQo1CsDeZgQ5dA' //group whatsapp
+global.sig = 'https://www.instagram.com/nauffhdkz'
+global.sgh = 'https://github.com/NaufalMuflih' //github
+global.sgc = 'https://chat.whatsapp.com/BiCsDeZgQ5dA' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/c/DenaraBot' // my youtube channel
+global.snh = 'https://www.youtube.com/channel/UC1esKQw-DKM5Xa5hF7vqdGA' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '085727492435' //dana
-global.povo = '085727492435' //ovo
+global.pdana = '081615997326' //dana
+global.povo = '081615997326' //ovo
 global.pgopay = 'minta ke owner' //gopay
-global.plinkaja = '085727492435' //link aja
-global.ppulsa = '081215626270' //telkomsel
-global.ppulsa2 = '085727492435' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/denarabot26'
+global.plinkaja = '081615997326' //link aja
+global.ppulsa = '081615997326' //telkomsel
+global.ppulsa2 = '081615997326' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.co/naufalmuflih'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285727492435'
-global.nomorown = '6281215626270'
-global.namebot = 'DENARA-BOT-V1'
-global.nameown = 'DENARA BOT'
+global.nomorbot = '6281615997326'
+global.nomorown = '6289601124991'
+global.namebot = 'Whatsapp-Bot'
+global.nameown = 'Naufal Muflih'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
@@ -58,7 +58,7 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281215626270', 'DENARA', true],
+  ['6289601124991', 'Naufal Muflih', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
@@ -109,21 +109,21 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 DENARA-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘DENARA-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ DENARA-BOT-V1 '
+global.wm = '                「 Whatsapp-Bot 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Whatspp-Bot ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ Whatspp-Bot '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By DENARA-BOT`
-global.author = '                「 DENARA-BOT-V1  あ」'
+global.titlebot = `⫹⫺ WhatsApp Bot | By Naufal Muflih`
+global.author = '                「 Whatspp-Bot  あ」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://telegra.ph/file/abea6ab9ca1eeca17dce7.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/abea6ab9ca1eeca17dce7.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://telegra.ph/file/abea6ab9ca1eeca17dce7.jpg']
+global.fla = 'https://telegra.ph/file/abea6ab9ca1eeca17dce7.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -189,8 +189,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'DENARA-BOT-V1'
-global.stickauth = `By ©DENARA BOT`
+global.stickpack = 'WHATSAPP-BOT'
+global.stickauth = `By ©Naufal Muflih`
 
 global.multiplier = 38 // The higher, The harder levelup
 
