@@ -324,6 +324,7 @@ export async function handler(chatUpdate) {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
+                    antiBadword: false,
                     antiLink: false,
                     viewonce: false,
                     antiToxic: true,
