@@ -23,6 +23,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	{title: "💬 | PcOnly", rowId: `${usedPrefix + command} pconly`},
 	{title: "🏢 | GcOnly", rowId: `${usedPrefix + command} gconly`},
 	{title: "📷 | SwOnly", rowId: `${usedPrefix + command} swonly`},
+	{title: "🌎 | antivirtex", rowId: `${usedPrefix + command} antivirtex`},
+	{title: "🌎 | antihatetepe", rowId: `${usedPrefix + command} antihatetepe`},
+	{title: "🌎 | antilinkwa", rowId: `${usedPrefix + command} antilinkwa`},
+	{title: "🌎 | antilinkig", rowId: `${usedPrefix + command} antilinkig`},
+	{title: "🌎 | antilinkfb", rowId: `${usedPrefix + command} antilinkfb`},
+	{title: "🌎 | antilinktel", rowId: `${usedPrefix + command} antilinktel`},
+	{title: "🌎 | antilinkyt", rowId: `${usedPrefix + command} antilinkyt`},
+	{title: "🌎 | antilinktik", rowId: `${usedPrefix + command} antilinktik`},
+	{title: "🌎 | antivirtex", rowId: `${usedPrefix + command} antilinkbitly`},
 	]
     },
 ]
@@ -220,6 +229,106 @@ const listMessage = {
         throw false
       }
       global.opts['swonly'] = isEnable
+      break
+      case 'antivirtex':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiVirtex = isEnable
+      break
+	case 'anticall':
+       if (m.isGroup) {
+         if (!(isAdmin || isOwner)) {
+           global.dfail('admin', m, conn)
+           throw false
+         }
+       }
+       chat.antiCall = isEnable
+       break
+		  case 'antilinkbitly':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkBitly = isEnable
+      break
+      case 'antilinktik':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkTik = isEnable
+      break
+      case 'antilinkyt':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkYt = isEnable
+      break
+      case 'antilinktel':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkTel = isEnable
+      break
+      case 'antilinkfb':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkFb = isEnable
+      break
+      case 'antilinkig':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkIg = isEnable
+      break
+      case 'antilinkwa':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkWa = isEnable
+      break
+      case 'antihatetepe':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLinkHttp = isEnable
+      break
+		  case 'viewonce':
+    case 'antiviewonce':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.viewonce = isEnable
       break
     default:
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
