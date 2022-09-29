@@ -67,8 +67,10 @@ export async function handler(chatUpdate) {
                     user.afkReason = ''
                 if (!('banned' in user))
                     user.banned = false
-                if (!isNumber(user.warn))
+              if (!isNumber(user.warn))
                     user.warn = 0
+                if (!isNumber(user.warning))
+                    user.warning = 0
                 if (!isNumber(user.level))
                     user.level = 0
                 if (!('role' in user))
@@ -184,6 +186,8 @@ export async function handler(chatUpdate) {
                     user.lastmining = 0
                 if (!isNumber(user.lasthunt))
                     user.lasthunt = 0
+                if (!isNumber(user.lastwar)) 
+                    user.lastwar = 0
                 if (!isNumber(user.lastweekly))
                     user.lastweekly = 0
                 if (!isNumber(user.lastmonthly))
@@ -271,6 +275,8 @@ export async function handler(chatUpdate) {
                     lastduel: 0,
                     lastmining: 0,
                     lasthunt: 0,
+                    warn: 0,
+                    warning: 0,
                     lastweekly: 0,
                     lastmonthly: 0,
                     lastbunga: 0,
