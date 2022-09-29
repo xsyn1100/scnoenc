@@ -8,7 +8,6 @@ let text = `
 │ • *Dana:* [${global.pdana}]
 │ • *Gopay:* [${global.pgopay}]
 │ • *Ovo:* [${global.povo}]
-│ • *Link Aja:* [${global.plinkaja}]
 ❏────
 `.trim()
   m.reply(text)
