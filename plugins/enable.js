@@ -32,6 +32,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	{title: "🌎 | antilinkyt", rowId: `${usedPrefix + command} antilinkyt`},
 	{title: "🌎 | antilinktik", rowId: `${usedPrefix + command} antilinktik`},
 	{title: "🌎 | antivirtex", rowId: `${usedPrefix + command} antilinkbitly`},
+	{title: "🌎 | antiviewonce", rowId: `${usedPrefix + command} antiviewonce`},
 	]
     },
 ]
@@ -320,7 +321,7 @@ const listMessage = {
       }
       chat.antiLinkHttp = isEnable
       break
-		  case 'viewonce':
+     case 'viewonce':
     case 'antiviewonce':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
